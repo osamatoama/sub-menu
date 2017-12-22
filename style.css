@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    background: url('nature.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.main-menu {
+    width: 80%;
+    margin: auto;
+}
+
+.main-menu li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 2px;
+    opacity: 0.8
+}
+
+.main-menu li:hover .sub-menu li {
+    display: block
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: white;
+    display: block
+}
+
+.main-menu li a:hover {
+    background-color: green;
+}
+
+.main-menu li .sub-menu li {
+    display: none;
+}
